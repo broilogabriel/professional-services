@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
- {
+{
   "extends": "@tsconfig/node16/tsconfig.json",
   "compileOnSave": false,
   "compilerOptions": {
@@ -24,8 +24,9 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "useUnknownInCatchVariables": true,
     "target": "es6",
-    "lib": [ 
+    "lib": [
       "dom"
     ]
   }
