@@ -25,4 +25,4 @@ jobs:
         with:
           context: tools/bq-visualizer/
           push: false
-          tags: user/app:latest
+          tags: broilogabriel/bq-visualizer:latest
